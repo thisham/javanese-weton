@@ -2,13 +2,15 @@
 An NPM package for getting javanese weton from a gregorian date.
 
 ## Getting Started
-```bash
+:construction: This package is under development.
+
+<!-- ```bash
 # Installing the Package
 
 $ npm install @thisham/weton
 # ... or using yarn ...
 $ yarn add @thisham/weton
-```
+``` -->
 
 ## Usage on Typescript
 

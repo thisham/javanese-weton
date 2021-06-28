@@ -1,0 +1,21 @@
+{
+  "name": "weton",
+  "version": "1.0.0",
+  "description": "Get javanese pancawara day from the gregorian calendar.",
+  "main": "dist/index.ts",
+  "repository": "git://github.com/thisham/weton.git",
+  "author": "Hamdan Yuwafi <yuwafi.hamdan365@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.5",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  }
+}

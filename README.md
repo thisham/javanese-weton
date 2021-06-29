@@ -1,4 +1,4 @@
-# Weton
+# Javanese Weton
 An NPM package for getting javanese weton from a gregorian date.
 
 ## Getting Started

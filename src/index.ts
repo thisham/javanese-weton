@@ -68,9 +68,8 @@ function getGregorianDayOfTamMonth(tamMonth: number, year: number): number {
 
 function gregorianDate(year: number, month: number, day: number): number {
   let tamYear = year - 1
-  let tamMonth = month - 1
   let date = getGregorianDayOfTamYear(tamYear)
-  date = date + getGregorianDayOfTamMonth(tamMonth, year)
+  date = date + getGregorianDayOfTamMonth(month, year)
   date = date + day
   return date
 }

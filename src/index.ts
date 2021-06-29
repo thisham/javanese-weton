@@ -83,6 +83,12 @@ function getSaptawara(gregorianDate: number): number {
 }
 
 function getWeton(annoDominiDate: Date): conversionResult {
+  let aPrimitive = annoDominiDate.getFullYear() <= 1900
+  let aHumanoid = annoDominiDate.getFullYear() >= 2100
+
+  if (aPrimitive || aHumanoid)
+    throwError("Only can get weton between 1900 AD. to 2100 AD.")
+
   let gregorianDays = gregorianDate(
     annoDominiDate.getFullYear(),
     annoDominiDate.getMonth(),
@@ -104,6 +110,10 @@ function getWeton(annoDominiDate: Date): conversionResult {
       saptawara: saptawara,
     },
   }
+}
+
+function throwError(message: string) {
+  throw new Error(message)
 }
 
 export { getWeton }

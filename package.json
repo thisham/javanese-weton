@@ -1,16 +1,16 @@
 {
-  "name": "@thisham/javanese-weton",
-  "version": "1.0.0",
+  "name": "javanese-weton",
+  "version": "1.0.1",
   "description": "Get javanese pancawara day from the gregorian calendar.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisham/javanese-weton.git"
   },
-  "repository": "git://github.com/thisham/javanese-weton.git",
   "author": "Hamdan Yuwafi <yuwafi.hamdan365@gmail.com>",
   "license": "MIT",
   "scripts": {

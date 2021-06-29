@@ -1,5 +1,5 @@
 # Javanese Weton
-An NPM package for getting javanese weton from a gregorian date.
+An NPM package for getting javanese weton from a gregorian date. This package can handle conversions between year 1900 AD until 2100 AD date.
 
 ## Getting Started
 ```bash

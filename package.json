@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Get javanese pancawara day from the gregorian calendar.",
   "main": "dist/index.ts",
-  "repository": "git://github.com/thisham/weton.git",
+  "repository": "git://github.com/thisham/javanese-weton.git",
   "author": "Hamdan Yuwafi <yuwafi.hamdan365@gmail.com>",
   "license": "MIT",
   "scripts": {

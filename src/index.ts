@@ -75,11 +75,11 @@ function gregorianDate(year: number, month: number, day: number): number {
 }
 
 function getPancawara(gregorianDate: number): number {
-  return gregorianDate / 5
+  return gregorianDate % 5
 }
 
 function getSaptawara(gregorianDate: number): number {
-  return gregorianDate / 7
+  return gregorianDate % 7
 }
 
 function getWeton(annoDominiDate: Date): conversionResult {
